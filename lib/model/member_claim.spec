@@ -40,5 +40,5 @@
         "description": "General"
     }
  ],
-  "depends": ["eliud_core_model"]
+  "depends": ["eliud_core_main"]
 }

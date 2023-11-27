@@ -21,9 +21,9 @@ import 'package:eliud_core_model/model/entity_export.dart';
 
 import 'dart:async';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:eliud_core_model/tools/query/query_tools.dart';
-import 'package:eliud_core_model/tools/firestore/firestore_tools.dart';
-import 'package:eliud_core_model/tools/common_tools.dart';
+import 'package:eliud_core_helpers/query/query_tools.dart';
+import 'package:eliud_core_helpers/firestore/firestore_tools.dart';
+import 'package:eliud_core_helpers/helpers/common_tools.dart';
 
 /* 
  * MemberDashboardFirestore is the firestore implementation of MemberDashboardRepository

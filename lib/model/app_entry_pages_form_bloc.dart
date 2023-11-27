@@ -15,9 +15,9 @@
 
 import 'package:bloc/bloc.dart';
 
-import 'package:eliud_core_model/tools/etc/string_validator.dart';
+import 'package:eliud_core_helpers/helpers/string_validator.dart';
 
-import 'package:eliud_core_model/model/abstract_repository_singleton.dart';
+import 'package:eliud_core_main/model/abstract_repository_singleton.dart';
 import 'package:eliud_core_model/model/model_export.dart';
 
 import 'package:eliud_core_model/model/app_entry_pages_form_event.dart';

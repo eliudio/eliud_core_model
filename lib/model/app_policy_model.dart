@@ -13,10 +13,10 @@
 
 */
 
-import 'package:eliud_core_model/tools/base/model_base.dart';
+import 'package:eliud_core_helpers/base/model_base.dart';
 
-import 'package:eliud_core_model/model/abstract_repository_singleton.dart';
-import 'package:eliud_core_model/model/model_export.dart';
+import 'package:eliud_core_main/model/abstract_repository_singleton.dart';
+import 'package:eliud_core_main/model/model_export.dart';
 import 'package:eliud_core_model/model/entity_export.dart';
 
 import 'package:eliud_core_model/model/app_policy_entity.dart';

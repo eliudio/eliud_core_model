@@ -17,7 +17,7 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 
-import 'package:eliud_core_model/tools/etc/enums.dart';
+import 'package:eliud_core_helpers/etc/enums.dart';
 
 import 'package:eliud_core_model/model/abstract_repository_singleton.dart';
 import 'package:eliud_core_model/model/model_export.dart';

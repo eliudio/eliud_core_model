@@ -13,7 +13,7 @@
 
 */
 
-import 'package:eliud_core_model/tools/base/model_base.dart';
+import 'package:eliud_core_helpers/base/model_base.dart';
 
 import 'package:eliud_core_model/model/entity_export.dart';
 

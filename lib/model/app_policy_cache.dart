@@ -14,12 +14,14 @@
 */
 
 import 'dart:async';
-import 'package:eliud_core_model/tools/query/query_tools.dart';
-import 'package:eliud_core_model/tools/common_tools.dart';
+import 'package:eliud_core_helpers/query/query_tools.dart';
+import 'package:eliud_core_helpers/helpers/common_tools.dart';
+import 'package:eliud_core_model/model/app_policy_model.dart';
 import 'package:eliud_core_model/model/app_policy_repository.dart';
 
-import 'package:eliud_core_model/model/abstract_repository_singleton.dart';
+import 'package:eliud_core_main/model/abstract_repository_singleton.dart';
 import 'package:eliud_core_model/model/repository_export.dart';
+import 'package:eliud_core_main/model/model_export.dart';
 import 'package:eliud_core_model/model/model_export.dart';
 import 'package:eliud_core_model/model/entity_export.dart';
 

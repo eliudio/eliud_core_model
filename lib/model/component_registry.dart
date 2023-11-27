@@ -14,10 +14,10 @@
 */
 
 import '../model/internal_component.dart';
-import 'package:eliud_core_model/tools/component/component_spec.dart';
+import 'package:eliud_core_main/apis/registryapi/component/component_spec.dart';
 import 'abstract_repository_singleton.dart';
-import 'package:eliud_core_model/tools/component/component_constructor.dart';
-import 'package:eliud_core_model/apis/apis.dart';
+import 'package:eliud_core_main/apis/registryapi/component/component_constructor.dart';
+import 'package:eliud_core_main/apis/apis.dart';
 
 import 'blocking_dashboard_component_selector.dart';
 import 'member_dashboard_component_selector.dart';
@@ -36,20 +36,10 @@ class ComponentRegistry {
     ComponentEditorConstructor memberDashboardComponentEditorConstructor,
   ) {
     Apis.apis().getRegistryApi().addInternalComponents('eliud_core_model', [
-      "apps",
-      "appBars",
       "appPolicys",
       "blockings",
       "blockingDashboards",
-      "dialogs",
-      "drawers",
-      "gridViews",
-      "homeMenus",
-      "members",
       "memberDashboards",
-      "memberPublicInfos",
-      "menuDefs",
-      "pages",
     ]);
 
     Apis.apis().getRegistryApi().register(
@@ -82,8 +72,6 @@ class ComponentRegistry {
     Apis.apis().getRegistryApi().registerRetrieveRepository('eliud_core_model',
         'accesss', ({String? appId}) => accessRepository(appId: appId)!);
     Apis.apis().getRegistryApi().registerRetrieveRepository('eliud_core_model',
-        'appBars', ({String? appId}) => appBarRepository(appId: appId)!);
-    Apis.apis().getRegistryApi().registerRetrieveRepository('eliud_core_model',
         'appPolicys', ({String? appId}) => appPolicyRepository(appId: appId)!);
     Apis.apis().getRegistryApi().registerRetrieveRepository(
         'eliud_core_model',
@@ -93,29 +81,9 @@ class ComponentRegistry {
         'eliud_core_model',
         'blockingDashboards',
         ({String? appId}) => blockingDashboardRepository(appId: appId)!);
-    Apis.apis().getRegistryApi().registerRetrieveRepository('eliud_core_model',
-        'dialogs', ({String? appId}) => dialogRepository(appId: appId)!);
-    Apis.apis().getRegistryApi().registerRetrieveRepository('eliud_core_model',
-        'drawers', ({String? appId}) => drawerRepository(appId: appId)!);
-    Apis.apis().getRegistryApi().registerRetrieveRepository('eliud_core_model',
-        'gridViews', ({String? appId}) => gridViewRepository(appId: appId)!);
-    Apis.apis().getRegistryApi().registerRetrieveRepository('eliud_core_model',
-        'homeMenus', ({String? appId}) => homeMenuRepository(appId: appId)!);
     Apis.apis().getRegistryApi().registerRetrieveRepository(
         'eliud_core_model',
         'memberDashboards',
         ({String? appId}) => memberDashboardRepository(appId: appId)!);
-    Apis.apis().getRegistryApi().registerRetrieveRepository(
-        'eliud_core_model',
-        'memberMediums',
-        ({String? appId}) => memberMediumRepository(appId: appId)!);
-    Apis.apis().getRegistryApi().registerRetrieveRepository('eliud_core_model',
-        'menuDefs', ({String? appId}) => menuDefRepository(appId: appId)!);
-    Apis.apis().getRegistryApi().registerRetrieveRepository('eliud_core_model',
-        'pages', ({String? appId}) => pageRepository(appId: appId)!);
-    Apis.apis().getRegistryApi().registerRetrieveRepository(
-        'eliud_core_model',
-        'platformMediums',
-        ({String? appId}) => platformMediumRepository(appId: appId)!);
   }
 }

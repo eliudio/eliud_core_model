@@ -13,9 +13,9 @@
 
 */
 
-import 'package:eliud_core_model/tools/base/model_base.dart';
+import 'package:eliud_core_helpers/base/model_base.dart';
 
-import 'package:eliud_core_model/model/model_export.dart';
+import 'package:eliud_core_main/model/model_export.dart';
 import 'package:eliud_core_model/model/entity_export.dart';
 
 import 'package:eliud_core_model/model/member_dashboard_entity.dart';

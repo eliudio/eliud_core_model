@@ -19,7 +19,7 @@ import 'package:bloc/bloc.dart';
 import 'package:eliud_core_model/model/member_medium_container_repository.dart';
 import 'package:eliud_core_model/model/member_medium_container_list_event.dart';
 import 'package:eliud_core_model/model/member_medium_container_list_state.dart';
-import 'package:eliud_core_model/tools/query/query_tools.dart';
+import 'package:eliud_core_helpers/query/query_tools.dart';
 
 import 'member_medium_container_model.dart';
 

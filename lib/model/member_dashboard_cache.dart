@@ -14,8 +14,8 @@
 */
 
 import 'dart:async';
-import 'package:eliud_core_model/tools/query/query_tools.dart';
-import 'package:eliud_core_model/tools/common_tools.dart';
+import 'package:eliud_core_helpers/query/query_tools.dart';
+import 'package:eliud_core_helpers/helpers/common_tools.dart';
 import 'package:eliud_core_model/model/member_dashboard_model.dart';
 import 'package:eliud_core_model/model/member_dashboard_repository.dart';
 

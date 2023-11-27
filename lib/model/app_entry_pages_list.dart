@@ -13,23 +13,23 @@
 
 */
 
-import 'package:eliud_core_model/apis/apis.dart';
-import 'package:eliud_core_model/tools/route_builders/route_builders.dart';
-import 'package:eliud_core_model/style/style_registry.dart';
-import 'package:eliud_core_model/tools/etc/has_fab.dart';
+import 'package:eliud_core_main/apis/apis.dart';
+import 'package:eliud_core_main/tools/route_builders/route_builders.dart';
+import 'package:eliud_core_main/apis/style/style_registry.dart';
+import 'package:eliud_core_helpers/tools/has_fab.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:eliud_core_model/model/background_model.dart';
-import 'package:eliud_core_model/tools/etc/delete_snackbar.dart';
-import 'package:eliud_core_model/tools/etc/etc.dart';
-import 'package:eliud_core_model/tools/etc/enums.dart';
+import 'package:eliud_core_main/model/background_model.dart';
+import 'package:eliud_core_helpers/tools/delete_snackbar.dart';
+import 'package:eliud_core_main/tools/etc/etc.dart';
+import 'package:eliud_core_helpers/etc/enums.dart';
 
 import 'package:eliud_core_model/model/app_entry_pages_list_event.dart';
 import 'package:eliud_core_model/model/app_entry_pages_list_state.dart';
 import 'package:eliud_core_model/model/app_entry_pages_list_bloc.dart';
 import 'package:eliud_core_model/model/app_entry_pages_model.dart';
 
-import 'package:eliud_core_model/model/app_model.dart';
+import 'package:eliud_core_main/model/app_model.dart';
 
 import 'app_entry_pages_form.dart';
 

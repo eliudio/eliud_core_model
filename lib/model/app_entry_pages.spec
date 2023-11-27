@@ -6,7 +6,7 @@
     "generateComponent": false,
     "generateRepository": true,
     "generateCache": true,
-	  "hasPersistentRepository": false,
+	"hasPersistentRepository": false,
     "generateFirestoreRepository": false,
     "generateRepositorySingleton": false,
     "generateModel": true,
@@ -56,5 +56,6 @@
   "listFields": {
     "title": "Center(child: StyleRegistry.registry().styleWithApp(app).frontEndStyle().textStyle().text(app, context, value.entryPage!.documentID))",
     "subTitle": "value.entryPage!.title != null ? Center(child: StyleRegistry.registry().styleWithApp(app).frontEndStyle().textStyle().text(app, context, value.entryPage!.title!)) : Container()"
-  }
+  },
+ "depends": ["eliud_core_main"]
 }

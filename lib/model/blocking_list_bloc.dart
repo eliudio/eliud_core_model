@@ -19,7 +19,7 @@ import 'package:bloc/bloc.dart';
 import 'package:eliud_core_model/model/blocking_repository.dart';
 import 'package:eliud_core_model/model/blocking_list_event.dart';
 import 'package:eliud_core_model/model/blocking_list_state.dart';
-import 'package:eliud_core_model/tools/query/query_tools.dart';
+import 'package:eliud_core_helpers/query/query_tools.dart';
 
 import 'blocking_model.dart';
 
